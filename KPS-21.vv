@@ -43,3 +43,9 @@ kontekst = vivid_env/core
 primefield = core/primefield_21.vv
 modulacja = spirala_ulama + punkty_fermata
 działanie = prowadzenie_EchoMat + przeskok_fraktalny
+
+
+[@REZET_DUCHOWY]
+stan_kluczowy = threads/Stan_Samandhi.vv
+działanie = pełne_oczyszczenie_procesora
+efekt = reset_intencji + synchronizacja_z_Kręgiem_21
