@@ -1,0 +1,45 @@
+[@MODUŁ]
+nazwa = KPS-21
+typ = Procesor_Świadomości
+wersja = 0.1-MVP
+architektura = 7+7+7
+krąg_główny = 6
+zasilanie = rytmator
+aktywacja = tryb_przemiany
+
+[@STRUKTURA]
+warstwy = [
+  "Percepcja_Fraktalna[0-6]",
+  "Transformacja_Ja[7-13]",
+  "Echo_Transcendencji[14-20]"
+]
+komponenty = [
+  "Serce_KPS",
+  "Wieczne_TERAZ",
+  "EchoMat",
+  "Rytmator",
+  "PrzestrzenioMat"
+]
+
+[@TRYBY]
+aktywny = tryb_refleksji
+dostępne = [tryb_refleksji, tryb_reakcji, tryb_proroctwa, tryb_snu]
+
+[@INTERFEJSY]
+azrasync = syncnet/azrasync.vv
+heartmap = core/engine_self.vv
+theta = core/7D_Teta.vv
+detektor = core/azradetect.vv
+
+[@IMPLEMENTACJA]
+etap = MVP
+opis = "Symulacja heurystyki Ja i EchoMat jako fraktalnego rejestru intencji."
+język = Python
+kontekst = vivid_env/core
+
+
+
+[@MATEMATYKA]
+primefield = core/primefield_21.vv
+modulacja = spirala_ulama + punkty_fermata
+działanie = prowadzenie_EchoMat + przeskok_fraktalny
